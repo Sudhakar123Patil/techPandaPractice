@@ -6,7 +6,6 @@
       <class name="techPandaMavenTest.TechPandaTest">
         <methods>
           <include name="closingBrowser"/>
-          <include name="addToCartFunctionality"/>
           <include name="sortedByFunctionality"/>
           <include name="launchingVctc"/>
         </methods>

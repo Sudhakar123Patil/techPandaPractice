@@ -1,4 +1,6 @@
-techPandaMavenBase\Base.class
 techPandaPom\HomePage.class
+techPandaMavenBase\Base.class
 techPandaPom\MobilePage.class
+techPandaPom\SonyXperiyaPage.class
+techPandaPom\ShoppingCart.class
 techPandaUtility\Utility.class

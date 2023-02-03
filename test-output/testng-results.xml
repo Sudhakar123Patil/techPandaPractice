@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[$100.00]]>
+    </line>
+    <line>
+      <![CDATA[$100.00]]>
+    </line>
+    <line>
+      <![CDATA[Rate of Sony Xperiya mobile on both page is same]]>
+    </line>
     <line>
       <![CDATA[Actual and Expected Error are same]]>
     </line>
@@ -8,16 +17,29 @@
       <![CDATA[cart is empty]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-02-03T12:29:12 IST" name="Default suite" finished-at="2023-02-03T12:29:36 IST" duration-ms="24032">
+  <suite started-at="2023-02-03T14:58:12 IST" name="Default suite" finished-at="2023-02-03T14:58:57 IST" duration-ms="44392">
     <groups>
     </groups>
-    <test started-at="2023-02-03T12:29:12 IST" name="Default test" finished-at="2023-02-03T12:29:36 IST" duration-ms="24032">
+    <test started-at="2023-02-03T14:58:12 IST" name="Default test" finished-at="2023-02-03T14:58:57 IST" duration-ms="44392">
       <class name="techPandaMavenTest.TechPandaTest">
-        <test-method is-config="true" signature="launchingVctc()[pri:0, instance:techPandaMavenTest.TechPandaTest@2805d709]" started-at="2023-02-03T12:29:12 IST" name="launchingVctc" finished-at="2023-02-03T12:29:25 IST" duration-ms="12456" status="PASS">
+        <test-method is-config="true" signature="launchingVctc()[pri:0, instance:techPandaMavenTest.TechPandaTest@5a56cdac]" started-at="2023-02-03T14:58:12 IST" name="launchingVctc" finished-at="2023-02-03T14:58:25 IST" duration-ms="12607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingVctc -->
-        <test-method signature="addToCartFunctionality()[pri:0, instance:techPandaMavenTest.TechPandaTest@2805d709]" started-at="2023-02-03T12:29:25 IST" name="addToCartFunctionality" finished-at="2023-02-03T12:29:35 IST" duration-ms="9865" status="PASS">
+        <test-method signature="sortedByFunctionality()[pri:0, instance:techPandaMavenTest.TechPandaTest@5a56cdac]" started-at="2023-02-03T14:58:25 IST" name="sortedByFunctionality" finished-at="2023-02-03T14:58:34 IST" duration-ms="8957" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[$100.00]]>
+            </line>
+            <line>
+              <![CDATA[$100.00]]>
+            </line>
+            <line>
+              <![CDATA[Rate of Sony Xperiya mobile on both page is same]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sortedByFunctionality -->
+        <test-method signature="addToCartFunctionality()[pri:1, instance:techPandaMavenTest.TechPandaTest@5a56cdac]" started-at="2023-02-03T14:58:34 IST" name="addToCartFunctionality" finished-at="2023-02-03T14:58:42 IST" duration-ms="8021" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Actual and Expected Error are same]]>
@@ -27,7 +49,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- addToCartFunctionality -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:techPandaMavenTest.TechPandaTest@2805d709]" started-at="2023-02-03T12:29:35 IST" name="closingBrowser" finished-at="2023-02-03T12:29:36 IST" duration-ms="1602" status="PASS">
+        <test-method signature="compairingTwoProduct()[pri:2, instance:techPandaMavenTest.TechPandaTest@5a56cdac]" started-at="2023-02-03T14:58:42 IST" name="compairingTwoProduct" finished-at="2023-02-03T14:58:54 IST" duration-ms="12455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compairingTwoProduct -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:techPandaMavenTest.TechPandaTest@5a56cdac]" started-at="2023-02-03T14:58:54 IST" name="closingBrowser" finished-at="2023-02-03T14:58:57 IST" duration-ms="2254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->

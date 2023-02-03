@@ -24,7 +24,7 @@ public class TechPandaTest extends Base
 	SonyXperiyaPage sxp;
 	ShoppingCart cart;
 	
-  @Test
+  @Test (priority =0 )
   public void sortedByFunctionality() throws InterruptedException, IOException 
   {
 	  
@@ -43,7 +43,7 @@ public class TechPandaTest extends Base
 	  
   }
   
-  @Test
+  @Test (priority = 1)
   public void addToCartFunctionality() throws IOException
   {
 	  home.clickOnMobButton(driver);
@@ -58,7 +58,7 @@ public class TechPandaTest extends Base
 	 Utility.takesScreenshot(driver, "cart");
 	  
   }
-  @Test
+  @Test (priority = 2)
   
   public void compairingTwoProduct() throws IOException, InterruptedException
   {
